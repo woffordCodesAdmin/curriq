@@ -1,0 +1,98 @@
+
+
+.nemo{
+    height:90px;
+}
+
+.rainbow{
+    height:90px;
+}
+.fishContainer{
+    border:solid green;
+    display:flex;
+    /* most used flex command */
+    /* add space around elements */
+    /* justify-content: space-evenly; */
+    margin-right:50%;
+    /* padding:50px; */
+    
+}
+
+
+.lionContainer{
+    border:solid orange;
+    display:flex;
+    /* justify-content: space-evenly; */
+
+}
+
+.lionContainer:hover{
+    border:solid orange;
+    border-width:25px;
+    display:flex;
+    transition:3s;
+    /* justify-content: space-evenly; */
+
+}
+
+
+
+
+.leone{
+    height:90px;
+}
+
+.aquarium{
+    border:solid blue;
+    display:flex;
+    margin-left:40%;
+    /* justify-content: space-around; */
+}
+.aqua{
+    height:90px;
+}
+
+.student{
+
+font-size:42px;}
+
+#girl{
+    background-color: salmon;
+}
+
+#boston{
+    background-image:url('https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Boston_Celtics.svg/1200px-Boston_Celtics.svg.png');
+}
+
+#picture{
+    height:90px;
+}
+
+#red{
+    background-color:red;
+}
+
+.foodContainer{
+    border:solid blue;
+    background-color:#333C3F;
+    font-size:32px;
+    padding:1em;
+    text-align:center;
+}
+
+.lunch,.brunch,.dinner{
+    border:solid black;
+    background-color:black;
+    color:lemonchiffon;
+}
+
+.items{
+    border:solid blue;
+    height:50px;
+    margin:10px;
+    background-color:grey;
+}
+
+#alcohol{
+    color:red;
+}
