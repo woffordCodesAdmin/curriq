@@ -1,0 +1,27 @@
+body{
+    height:300vh;
+}
+.icon{
+    height:60px;
+}
+.mainScreen{
+    background-image:url('https://c.tenor.com/LjTYaEUNxV4AAAAC/audi-automobile-manufacturer.gif');
+    height:50vh;
+    width: 100%;
+    background-size:cover;
+}
+.vroom{
+    height:40px;
+}
+.nav-link{
+    border:solid lemonchiffon;
+    border-width: .2px;
+    color:white;
+    text-align:center;
+    
+}
+#caro{
+    border:solid blue;
+    border-width:9px;
+    height:298px;
+}

@@ -1,0 +1,153 @@
+
+/* MediaQuery to have set Display */
+
+body{
+    background-color:black;
+    color:lemonchiffon;
+    font-family:serif;
+}
+.mainTitle{
+    text-align:center;
+}
+
+.gameContainer{
+    
+    border-width:.2px;
+}
+.scoreboard{
+    /* border:solid green; */
+    background-color:black;
+    border-radius:12px;
+    border-width:.2px;
+    display: flex;
+    justify-content: space-evenly;
+    /* height:12vh; */
+    
+}
+.points{
+    border:solid grey;
+    border-width:.2px;
+    border-radius:50%;
+    color:yellow;
+    font-size:23px;
+    text-align:center;
+    padding:2px;
+    width:35px;
+    height:35px;
+}
+.wordContainer{
+    border:solid orange;
+    display:flex;
+    padding:1em;
+    justify-content: space-evenly;
+    border-width:.2px;
+    background-color:grey;
+    margin-top:40%;
+    height:50px;
+}
+.questionContainer{
+    border:solid lemonchiffon;
+    margin-bottom:12px;
+    border-width:.2px;
+    border-radius:23px;
+    padding:1em;
+    text-align:center;
+}
+.splitContainer{
+    display:flex;
+    padding:1em;
+    background-image:url('https://cdn.iconscout.com/icon/free/png-256/hang-1551091-1315157.png');
+    background-size:cover;
+    height:450px;
+}
+.bodyParts{
+    /* border:solid pink; */
+    margin-top:150px;
+    padding:10px;
+    width:50%;
+}
+.falseContainer{
+    /* border:solid red; */
+    text-align:center;
+    color:red;
+    width:50%;
+}
+
+.head{
+    border:solid blue;
+    height:90px;
+    width:90px;
+    margin-left:20%;
+    margin-top:30%;
+}
+.midSec{
+    display:flex;
+    /* border:solid orange; */
+    justify-content: space-between;
+    height:90px;
+}
+.lowSec{
+    /* border:solid yellow; */
+    margin-top:10px;
+    display:flex;  
+    height:130px;
+    justify-content: space-between;
+}
+.leftArm{
+    border:solid white;
+    width:30%;
+}
+.chest{
+    border:solid green;
+    width:30%;
+}
+.rightArm{
+    border:solid white;
+    width:30%;
+}
+.leftLeg{
+    border:solid red;
+    width: 40%;
+}
+.rightLeg{
+    border:solid peru;
+    width:40%;
+}
+.gameBtn,.ruleBtn{
+    font-size:12px;
+
+    color:white;
+    border-width:.2px;
+    background-color:green;
+
+    /* margin-top:30px; */
+    padding-left:8px;
+    padding-right:8px;
+    border-radius:12px;
+}
+.holder{
+    display:flex;
+}
+.wordTile{
+    border:solid green;
+    background-color:lime;
+    height:40px;
+    width:80px;
+    margin:2px;
+}
+.wordTile:hover{
+    border:solid green;
+    background-color:peru;
+    height:40px;
+    width:80px;
+    margin:2px;
+}
+.show{
+    display:block;
+}
+.disappear{
+    display:none;
+}
+.winner,.loser{
+    width:100%;
+}

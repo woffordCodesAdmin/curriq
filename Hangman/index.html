@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      
+    <h1 class="mainTitle">Hangman</h1>
+    <div class="gameContainer">
+      <div class="questionContainer"></div>
+      <div class="scoreboard">
+        <div class="holder">
+            Score :
+
+            <span class="points"></span>
+        </div>
+        <div class="infoContainer">
+          <button onclick="gameOn()" class="gameBtn">Start Game</button>
+          <button class="ruleBtn">Rules</button>
+        </div>
+    </div>
+
+      <div class="splitContainer">
+        <div class="falseContainer"></div>
+        <div class="bodyParts">
+          <div class="head"></div>
+          <div class="midSec">
+            <div class="leftArm"></div>
+            <div class="chest"></div>
+            <div class="rightArm"></div>
+          </div>
+          <div class="lowSec">
+            <div class="leftLeg"></div>
+            <div class="rightLeg"></div>
+          </div>
+        </div>
+      </div>
+<button onclick="guessLetter()"class="solver">Guess A Letter</button>
+<button onclick="guessWord()"class="solver2">Guess Word</button>
+      <div class="wordContainer">
+          
+      </div>
+    </div>
+
+    <script src="hanger.js"></script>
+  </body>
+</html>

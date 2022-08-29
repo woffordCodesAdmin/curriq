@@ -1,0 +1,67 @@
+body{
+    background-color:pink;
+}
+.navContainer {
+    border: solid black;
+    border-width: 0.2px;
+    display: flex;
+    justify-content: space-around;
+    /* height: 12vh; */
+    margin: 1em;
+    padding: 0.3em;
+  }
+  .navPill {
+    border: solid black;
+    color:black;
+    border-width: 0.2px;
+    height: 25px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 22px;
+    border-width: 0.2px;
+    margin-top: 30px;
+  }
+  .logo {
+    margin-top: 2%;
+    border: solid black;
+    border-radius: 50%;
+    height: 60px;
+    border-width: 0.2px;
+    width: 60px;
+  }
+  .topContainer {
+    border: solid white;
+    border-width: 0.2px;
+    height: 62vh;
+    margin: 1em;
+  }
+  .saleContainer{
+    border:solid red;
+    background-image:url('https://st2.depositphotos.com/4398543/7537/i/950/depositphotos_75371585-stock-photo-close-up-strawberry-icecream-background.jpg');
+    height:100%;
+    display:flex;
+}
+.salePic{
+    border:solid purple;
+    height:250px;
+    border-radius:0px;
+    background-image:url('https://ketogenic.com/wp-content/uploads/2020/07/keto-strawberry-sundae.jpg');
+    background-size:cover;
+    width:50%;
+}
+
+#choco{
+    display:none;
+    }
+    #nilla{
+    display:none;
+    }
+    #berry{
+       display:block; 
+    }
+    .saleText{
+        margin:1em;
+        color:black;
+        text-align:center;
+        font-size:42px;
+    }
