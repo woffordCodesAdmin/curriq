@@ -1,3 +1,304 @@
+@media only screen and (max-width: 1900px) {
+    body {
+      border:solid white;
+      background-color: slategray;
+    }
+    .masterContainer {
+      background-image: url("https://images.unsplash.com/photo-1551225183-94acb7d595b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGdyYWZmaXRpfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60");
+      display: block;
+    }
+    .majorContainer {
+      border: solid red;
+      display: block;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    body {
+      background-color: #333c3f;
+    }
+    .masterContainer {
+      /* border:solid white; */
+      background-image: url("");
+      display: flex;
+    }
+    .majorContainer {
+      border: none;
+      width: 40%;
+      padding: 1em;
+      display: block;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: black;
+    }
+    .masterContainer {
+      display: flex;
+      background-image: url("");
+    }
+    .majorContainer {
+      border: solid white;
+      display: none;
+    }
+  }
+  
+  @keyframes slidein {
+    0% {
+      transform: translateX(0%);
+    }
+  
+    100% {
+      transform: translateX(120%);
+    }
+  }
+  body {
+    height: 1350vh;
+    padding: 2em;
+  }
+  .julian {
+    width: 100%;
+    border-width: 0.2px;
+    border-radius: 50%;
+  }
+  .scraper {
+    border: solid white;
+    margin-top: 1em;
+    text-align: center;
+    color: white;
+  }
+  .btnContainer {
+    border-width: 0.2px;
+    width: 100%;
+    padding: 1em;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 33px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .jvlContainer {
+    display: flex;
+    margin: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    justify-content: space-evenly;
+    color: lemonchiffon;
+  }
+  .jvlContainer2 {
+    display: flex;
+    margin: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    justify-content: space-evenly;
+    color: peru;
+  }
+  .jvlContainer3 {
+    display: flex;
+    margin: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    justify-content: space-evenly;
+    color: lime;
+  }
+  .vls {
+    font-size: 42px;
+  }
+  .vls:hover {
+    font-size: 42px;
+    color: lemonchiffon;
+  }
+  .aes {
+    border: solid lemonchiffon;
+    border-width: 0.2px;
+    width: 100%;
+  }
+  .crwn {
+    height: 80px;
+  }
+  .navbar {
+    color: lemonchiffon;
+  }
+  .offcanvas {
+    /* border-width:.2px; */
+    color: white;
+    background-color: black;
+  
+    text-align: center;
+  }
+  .sneakerLook {
+    border: solid peru;
+    width: 50%;
+    margin: 1em;
+    border-radius: 50%;
+  }
+  .kiqContainer {
+    margin: 2em;
+    display: flex;
+    justify-content: space-between;
+  }
+  .productContainer {
+    border: solid lime;
+    margin-bottom: 0.4em;
+    background-image: url("https://media0.giphy.com/media/fwo7bzEVxbYS4eSNVd/200w.gif?cid=82a1493br5zvch1q0tyzg82ponqmpc0h8tyi619q4767tj69&rid=200w.gif&ct=g");
+    background-size: cover;
+    background-color: black;
+    border-radius: 22px;
+    margin: 1em;
+    padding: 0.5em;
+    border-width: 0.2px;
+  }
+  .proQtitle {
+    font-size: 24px;
+    margin: 12px;
+    color: lemonchiffon;
+  }
+  .produqRow {
+    justify-content: space-between;
+  }
+  .proQ {
+    border: solid white;
+    border-radius: 12px;
+    border-width: 0.2px;
+    height: 220px;
+    width: 100%;
+  }
+  .proQbtn {
+    border: solid lime;
+    border-width: 0.2px;
+    font-size: 18px;
+    border-radius: 23px;
+    background-color: #333c3f;
+    color: white;
+  }
+  .proQbtn:hover {
+    border: solid white;
+    font-size: 18px;
+    border-radius: 23px;
+    background-color: lime;
+    color: black;
+  }
+  .proQimg {
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+  }
+  .bear {
+    width: 100%;
+  }
+ 
+  .info {
+    border: solid yellow;
+    margin: 1em;
+    border-width: 0.2px;
+    height: 120px;
+    background-image: url("https://thumbs.gfycat.com/AnotherLankyArthropods-size_restricted.gif");
+    background-size: contain;
+  }
+  .kwn {
+    height: 70px;
+    position: absolute;
+    animation: slidein 2.3s ease-in 1;
+  }
+  .modal-body,
+  .modal-header,
+  .modal-footer,
+  .modal-title {
+    background-color: black;
+    text-align: center;
+    color: peru;
+  }
+  .asia {
+    border: solid white;
+    border-width: 8px;
+    margin-top: 3em;
+    width: 100%;
+  }
+  .modalTxt {
+    margin-top: 3em;
+    border: solid white;
+    padding: 1em;
+    font-size: 12px;
+    border-width: 0.2px;
+  }
+  .btn-close {
+    background-color: salmon;
+  }
+ 
+  .shadowScrn2 {
+    border: solid lime;
+    border-width: 0.2px;
+    padding: 1em;
+    color: lemonchiffon;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+  }
+  .eyeC {
+    width: 100%;
+  }
+  .concernContainer {
+    padding: .2em;
+    display:none;
+  }
+  .concerned {
+    display: flex;
+    justify-content: space-around;
+    margin-top:32px;
+  }
+  .issueTxt {
+    color:white;
+    margin:5px;
+    padding-top:6em;
+    font-size:18px;
+    text-align: center;
+    height: 250px;
+    font-family: serif;
+    width: 40%;
+  }
+  .issuePic {
+    border:solid grey;
+    width: 60%;
+    border-radius:22px;
+    height:240px;
+  }
+  .issuePic:hover {
+    border:solid grey;
+    width: 60%;
+    -webkit-box-shadow: 5px 5px 21px 7px #6B56FF; 
+  box-shadow: 5px 5px 21px 7px #6B56FF;
+  }
+  .concernTitle{
+    font-family:'Courier New', Courier, monospace;
+    color:aqua;
+    text-align:right;
+  }
+  .bro{
+    width:100%;
+  }
+  .skeeter{
+    width:100%;
+    position:absolute;
+  }
+  .qs{
+    text-align: center;
+    margin:1em;
+    font-family: 'Courier New', Courier, monospace;
+    color:yellow;
+  }
+  .qs:hover{
+    text-align: center;
+    margin:1em;
+    font-family: 'Courier New', Courier, monospace;
+    color:orange;
+  }
+  .tagz{
+    width:100%;
+  }
+  .spray{
+    width:100%;
+  }
+  .thag{
+    width:100%;
+  }
+  .appear{
+    display:block;
+  }
+
 .sneakerContainer{
     border:solid black;
     padding:1em;

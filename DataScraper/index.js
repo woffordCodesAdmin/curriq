@@ -1,45 +1,60 @@
-const PORT = 8000;
+const PORT = 3000;
 const axios = require("axios");
 const cheerio = require("cheerio");
 const express = require("express");
-
+const res = require("express/lib/response");
 const app = express();
-const url = "https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok";
-const shoeContainer = []
 
-// const generateSneakerImages = ([sneakers]) => {
-    // const shoebox = document.querySelector('.sneakerContainer')
+app.set('view engine', 'ejs')
+app.use(express.static(__dirname + '/public'));
 
-//     sneakers.forEach(kicks => {
-//         let shoe = document.createElement('img')
-//         shoe.setAttribute('src',kicks)
-//         shoe.setAttribute('class','mainKiq')
+const nike = {
+  site: "https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok",
+  selector: ".product-card",
+};
+const jordan = {
+  site: "",
+  selector: "",
+};
+const yeezy = {
+  site: "",
+  selector: "",
+};
+const nikeSB = {
+  site: "",
+  selector: "",
+};
+const shoeContainer = [];
 
-//         shoebox.push(kicks)
-//     });
-// }
 
-const pushToContainer = () => {
-    axios(url).then((res) => {
-        const site = res.data;
-        // console.log(site)
-      
-        const $ = cheerio.load(site);
-        $(".product-card", site).each(function(){
-          
-          const imageURL = $(this).find("a").attr("href");
-          
-          shoeContainer.push({
-              imageURL
-          })
+
+app.get('/',(req,res)=>{
+  res.sendFile(__dirname + '/index.html');
+})
+
+const scrapeShoe = () => {
+  axios("https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok").then(
+    (res) => {
+      const site = res.data;
+      const $ = cheerio.load(site);
+      $(".product-card", site).each(function () {
+        let scrapedShoe = $(this).text().split("<")[0];
+        let imageURL = $(this).find("a").attr("href");
+
+        let kiq = {
+          name: scrapedShoe,
+          image: imageURL,
+        };
+        shoeContainer.push(kiq);
       });
-   console.log(shoeContainer) 
-      }) 
-}
-    
+      console.log(shoeContainer);
+    }
+  );
+};
+scrapeShoe()
 
-pushToContainer()
 
-app.listen((PORT) => {
+
+app.listen(PORT, () => {
   console.log("Server Running on port8k");
 });

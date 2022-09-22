@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <h1 class="title">Welcome To Jax</h1>
+      <div class="scoreContainer">
+        <h3>Score :</h3>
+        <span class="points"></span>
+
+      </div>
+    <div class="gameContainer">
+      <div onclick="bounceBall()" class="ball"></div>
+
+      <div class="jacksContainer">
+        <div onclick="pickUpJax('one')"id="one" class="jax"></div>
+        <div onclick="pickUpJax('two')"id="two" class="jax"></div>
+        <div onclick="pickUpJax('three')"id="three" class="jax"></div>
+        <div onclick="pickUpJax('four')"id="four" class="jax"></div>
+        <div onclick="pickUpJax('five')"id="five" class="jax"></div>
+        <div onclick="pickUpJax('six')"id="six" class="jax"></div>
+        <div onclick="pickUpJax('seven')"id="seven" class="jax"></div>
+        <div onclick="pickUpJax('eight')"id="eight" class="jax"></div>
+        <div onclick="pickUpJax('nine')"id="nine" class="jax"></div>
+        <div onclick="pickUpJax('ten')"id="ten" class="jax"></div>
+      </div>
+    </div>
+
+    <hr />
+
+    <script src="app.js"></script>
+  </body>
+</html>

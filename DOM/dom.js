@@ -1,5 +1,8 @@
 // What is the DOM -- Document OBJECT model
 
+
+
+
 const populateTextToScreen = () => {
   let screen = document.querySelector(".screen");
 
@@ -9,11 +12,13 @@ const populateTextToScreen = () => {
   screen.innerHTML = text;
 };
 
+
 const launchPrompt = () => {
   let dynamicText = prompt(
-    "Enter Something And Watch It Populate to the screen"
+    "something else"
   );
   let screen = document.querySelector(".screen");
+
   screen.innerHTML = dynamicText;
 };
 

@@ -1,0 +1,25 @@
+.soundTable{
+    border:solid salmon;
+    height:62vh;
+}
+.row{
+    /* border:solid green; */
+    margin:1em;
+    display:flex;
+    padding-left:30%;
+    
+}
+.beatPad{
+    border:solid orange;
+    background-color:lightgrey;
+    width:90px;
+    height:90px;
+    margin-left: 12px;
+}
+.beatPad:hover{
+    border:solid orange;
+    background-color:#333C3F;
+    width:90px;
+    height:90px;
+    margin-left: 12px;
+}
