@@ -56,6 +56,7 @@ app.post("/students", (req, res) => {
     req.body.isPassing = false;
   }
   Student.create(req.body, (err,createdStudent) => {
+      console.log(err)
     res.send(createdStudent);
   });
   res.redirect("/students");
@@ -125,6 +126,7 @@ app.get("/students/seed", (req, res) => {
 
 app.get("/students/:id", (req, res) => {
     Student.findById(req.params.id, (err,foundStudent) => {
+        console.log(err)
       console.log("Found: ", foundStudent);
       res.render("Show", {
         student: foundStudent,

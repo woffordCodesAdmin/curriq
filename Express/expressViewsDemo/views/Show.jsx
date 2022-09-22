@@ -6,6 +6,9 @@ class Show extends React.Component {
       return (
       <DefaultLayout title={"Student Profile"}>
         <div>
+            <nav>
+                <a href="/students"> Back2 Dashboard</a>
+            </nav>
           <h1> Show Page </h1>
           {student.name}'s grade is  {student.gpa}
           <br /> Student{" "}
