@@ -1,0 +1,45 @@
+
+:root {
+    --dark-cerulean: #124e78;
+    --maastricht-blue: #0b132b;
+    --yankees-blue: #1C2541;
+    --sea-serpent: #5bc0be;
+    --aquamarine: #6fffe9;
+    --react: #00d8ff;
+  }
+  
+  html {
+    background: var(--yankees-blue);
+  }
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+  
+  .board{
+      margin-left:20%;
+  }
+.row{
+    /* border:solid black; */
+    display:flex;
+
+}
+.square{
+    height:90px;
+    width:90px;
+    border:solid blue;
+
+}
+.square:hover{
+  height:90px;
+  width:90px;
+  border:solid blue;
+  background-color: lemonchiffon;
+  color:black;
+}
+.flexer{
+    border:solid salmon;
+    display:flex;
+    justify-content: space-evenly;
+}

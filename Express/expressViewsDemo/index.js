@@ -66,6 +66,7 @@ app.post("/students", (req, res) => {
 app.get("/students/:id/edit", (req, res) => {
   Student.findById(req.params.id, (err, foundStudent) => {
     //findStudent
+    console.log(err)
     if (!err) {
       res.render("Edit", {
         student: foundStudent,
@@ -85,6 +86,7 @@ app.put("/students/:id", (req, res) => {
     req.body.isPassing = false;
   }
   Student.findByIdAndUpdate(req.params.id, req.body, (err, updatedStudent) => {
+      console.log(err)
     console.log(updatedStudent);
     res.redirect(`/students/${req.params.id}`);
   });
