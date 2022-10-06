@@ -1,0 +1,98 @@
+body{
+background-color:black;
+color:white;
+}
+.dice{
+    border:solid black;
+    border-radius:50%;
+    border-width:.2px;
+    height:190px;
+    width: 190px;
+    margin-left:30%;
+}
+.dice:hover{
+    border:solid black;
+    border-width:8px;
+    border-radius:50%;
+    height:190px;
+    background-image: url('https://media.tenor.com/jtKOZ08ofz0AAAAC/sphere-electricity.gif');
+    background-size:cover;
+    width: 190px;
+    margin-left:30%;
+    transition:.4s;
+}
+.quiz{
+    text-align:center;
+}
+.screen{
+    border:solid black;
+    text-align:center;
+    font-size:32px;
+    padding:1em;
+    border-radius:22px;
+    border-width:4px;
+    margin:1em;
+}
+.studentContainer{
+    display:flex;
+    margin:1em;
+}
+.kids{
+    margin:12px;
+}
+.studentScrn{
+    text-align:center;
+    font-size:32px;
+    border-radius:12px;
+    width:60%;
+}
+.btnContainer{
+    display:flex;
+    justify-content: space-around;
+    height:120px;
+    margin:2em;
+    text-align:center;
+    
+}
+.leaderboard{
+    border:solid lemonchiffon;
+    border-radius:22px;
+    text-align:center;
+    padding:1em;
+}
+.right{
+border:solid green;
+font-size:80px;
+height:90px;
+width:90px;
+border-radius:50%;
+background-image: url('https://media3.giphy.com/media/uKi4DG2TPzGuN4Q7Xg/giphy.gif');
+background-size:cover;
+}
+.wrong{
+    border:solid red;
+    font-size:60px;
+    height:90px;
+    width:90px;
+    border-radius:50%;
+    background-image: url('https://media4.giphy.com/media/3og0IvGtnDyPHCRaYU/giphy.gif');
+    background-size:cover;
+}
+.right:hover,.wrong:hover{
+
+border-width:8px;
+}
+.ltxt{
+    text-align:right;
+    font-family:'Courier New', Courier, monospace;
+    font-size:22px;
+    color:lightblue;
+}
+.leader{
+    border:solid lightblue;
+    padding:6px;
+    text-align:center;
+}
+.cmon{
+    width:100%;
+}

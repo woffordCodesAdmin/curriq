@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2 class="quiz">JQuiz3000</h2>
+    <img
+      onClick="rollDice()"
+      src="https://cdn.dribbble.com/users/6059148/screenshots/14425859/media/3f67e0e620f3818a68a03fdb874b7a56.gif"
+      alt=""
+      class="dice"
+    />
+
+    <div class="studentContainer">
+      <h3 class="kids">Student Randomizer:</h3>
+      <div class="studentScrn"></div>
+    </div>
+
+    <div class="screen"></div>
+
+    <div class="btnContainer">
+      <div onClick="answeredQuestion('true')"class="right"></div>
+      <div onClick="answeredQuestion('nahh')" class="wrong"></div>
+    </div>
+    <h3 class="ltxt">LeaderBoard</h3>
+    <div class="leaderboard"></div>
+
+    <script src="app.js" async defer></script>
+  </body>
+</html>

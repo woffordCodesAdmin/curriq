@@ -10,6 +10,8 @@ function App() {
   const [count, setCount] = useState(0);
 
   const [currentPic,setCurrentPic] = useState(cardImages[count])
+
+  
   console.log(currentPic)
 
   const reverseCount = () => {
