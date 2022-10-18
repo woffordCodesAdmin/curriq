@@ -1,0 +1,108 @@
+body {
+  background-color: black;
+  color:lemonchiffon;
+}
+.mernContainer{
+    /* border:solid white; */
+    border-width:.2px;
+    height:82vh;
+    padding:2em;
+}
+.steps{
+    border:solid red;
+    border-radius:50%;
+    width:18%;
+}
+.steps:hover{
+    border:solid white ;
+    border-radius:50%;
+    width:18%;
+    background-color: green;
+}
+.screen{
+    border:solid green;
+    /* height:22vh; */
+    margin:1em;
+    border-radius:12px;
+}
+.instructions{
+    /* border:solid lemonchiffon; */
+    padding:.5em; 
+    
+}
+.btns{
+    /* border:solid grey; */
+    height:13vh;
+    padding:12px;
+    margin:1em;
+    justify-content: space-evenly;
+    display:flex;
+}
+.chapter{
+    border:solid lightblue;
+    border-radius: 22px;
+    border-width:.2px;
+    margin:10px;
+    display: flex;
+    
+    padding:1em;
+    justify-content: space-around;
+}
+.intro{
+    /* border:solid green; */
+    border-width:.2px;
+    text-align: center;
+    width:30%;
+}
+.description{
+    /* border:solid orange; */
+    border-width:.2px;
+    width:60%;
+}
+.tips{
+    border:solid white;
+    padding-top:22px;
+    /* border-radius:22px; */
+    border-width: .2px;
+    text-align:center;
+    margin:1em;
+    height:50px;
+}
+.tips:hover{
+    border:solid salmon;
+    border-radius:22px;
+    border-width: .2px;
+    text-align:center;
+    margin:1em;
+    height:50px;
+}
+li{
+    margin:1em;
+}
+.container{
+    border:solid grey;
+    border-width:.2px;
+    padding:4px;
+    margin:1em;
+    text-align:center;
+    border-radius:22px;
+}
+.manara{
+    position:fixed;
+    border:solid white;
+    border-radius:50%;
+    background-image: url('https://avatars.githubusercontent.com/u/81993343?s=48&v=4');
+    background-size:cover;
+    height:90px;
+    width:90px;
+}
+.manara:hover{
+    position:fixed;
+    border:solid green;
+    border-width:12px;
+    border-radius:50%;
+    background-image: url('https://avatars.githubusercontent.com/u/81993343?s=48&v=4');
+    background-size:cover;
+    height:90px;
+    width:90px;
+}

@@ -1,0 +1,58 @@
+body{
+    /* background-image:url('https://j.gifs.com/y0YeWG.gif'); */
+    background-size:cover;
+    background-color:black;
+    color:white;
+    font-family:serif;
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+    text-align:center;
+}
+.title{
+    font-size:42px;
+}
+.synopsis{
+    border:solid black;
+    text-align:center;
+    padding:22px;
+    width:35%;
+    border-radius:22px;
+    background-color: black;
+    color:white;
+}
+.poster{
+    border:double white;
+    border-width:8px;
+    width:50%;
+}
+.App{
+    padding:3em;
+}
+.searcher{
+    margin:32px;
+    height:20px;
+    border-radius:22px;
+    background-color: black;
+    color:white;
+    padding:10px;
+    font-size:28px;
+    border:solid white;
+    text-align: center;
+    width:85%;
+}
+.sBtn{
+    border-radius:22px;
+    font-size:23px;
+    width:210px;
+    background-color: green;
+    color:white;
+}
+.fcontainer{
+    margin:2em;
+}
+.scrn{
+    display:flex;
+    justify-content: space-between;
+}
