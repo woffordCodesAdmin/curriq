@@ -1,8 +1,11 @@
+body{
+    background-color: black;
+}
 .atmContainer{
-    border:solid blue;
-    height: 82vh;
+    border:solid black;
+    background-color:black;
     margin:1em;
-    background-color:lightgrey;
+    background-color:lightblue;
     padding:1em;
 }
 
@@ -16,27 +19,64 @@
 .atmBody{
     display:flex;
     justify-content: space-evenly;
+
 }
 
 .btnLeft{
-border:solid yellow;
+/* border:solid yellow; */
+padding:1em;
 height:230px;
+background-color:slategray;
 width:20%;
 }
 
 .screen{
 border:solid black;
 height:230px;
-width:60%;
+width:60%;padding:1em;
 background-color:black;
 }
 
 
 .btnRight{
-    border:solid orange;
+    /* border:solid orange; */
     height:230px;
+    padding:1em;
+    background-color:slategray;
     width:20%;
 
 }
-
-
+.atmBtn{
+    border:solid white;
+    margin-top:3vh;
+    border-radius:22px;
+    font-size:12px;
+    text-align:center;
+    color:white;
+    background-color:black;
+}
+.numDial{
+    border:solid navy;
+    background-color:#333C3F;
+    color:white;
+    border-radius:22px;
+    margin:1em;
+    height:20px;
+    width: 23%;
+    text-align:center;
+}
+.numDial:hover{
+    border:solid navy;
+    background-color:#333C3F;
+    color:lime;
+    border-radius:22px;
+    margin:1em;
+    height:20px;
+    width: 23%;
+    text-align:center;
+}
+.phoneRow{
+    /* border:solid red; */
+    display:flex;
+    justify-content: space-evenly;
+}
