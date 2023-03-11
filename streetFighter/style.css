@@ -1,0 +1,293 @@
+
+@keyframes fightnow {
+  0%{
+transform: translateX(0px);  }
+  50%{
+    transform: translateX(550px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+  
+}
+
+@media(max-width: 1580px) {
+    body {
+      background-color: black;
+      color:white;
+    }
+    .gameboard{
+        border:solid black;
+        width:80%;
+      }
+     
+      .charSelect{
+        width:20%;
+        /* border:solid blue; */
+        display:block;
+      }
+      
+  }
+  /* Desktop */
+
+  @media(max-width: 1280px) {
+    body {
+      background-color: black;
+      color:white;
+    }
+    .gameboard{
+        border:solid black;
+        width:80%;
+      }
+     
+      .charSelect{
+        width:20%;
+        /* border:solid blue; */
+        display:block;
+      }
+    
+  }
+/* Mid */
+
+  @media(max-width: 880px) {
+    body {
+      background-color: black;
+      color:white;
+    }
+    .gameboard{
+        border:solid black;
+        width:100%;
+      }
+
+      .charSelect{
+        width:0%;
+        /* border:solid blue; */
+        display:none;
+      }
+  }
+  /* Mobile */
+
+/* ----------------------------------- */
+  .sfContainer{
+    /* border:solid red; */
+    /* height:100vh; */
+    display:flex;
+  }
+  
+  .lvContainer{
+    /* border:solid orange; */
+    padding:1em;
+    height:100vh;
+  }
+.level{
+    border:solid white;
+    padding:12px;
+    border-width:.2px;
+    margin-top:5%;
+}
+.level:hover{
+    border:solid lime;
+}
+.lvTxt{
+    /* border:solid white; */
+    text-align:center;
+}
+.lvl{
+    width:100%;
+}
+.fighter{
+    /* border:solid white; */
+    border-width: .2px;
+    width:60%;
+    margin:10%;
+    padding:1em;
+}
+.fighter:hover{
+    border:solid green;
+    width:60%;
+    margin:10%;
+    padding:1em;
+    
+}
+.fChar{
+    height:150px;
+    padding-left:1em;
+}
+.charTxt{
+  text-align:right;
+}
+.optionTitle{
+  text-align:center;
+  font-family:serif;
+}
+.gameboard{
+    border:solid white;
+}
+
+.arena{
+    /* border:solid blue; */
+    height:80vh;
+    display:flex;
+    background-image:url('http://twistedsifter.com/wp-content/uploads/2013/05/animated-gifs-of-fighting-game-backgrounds-38.gif');
+    background-size:cover;
+}
+.joystick{
+    
+    border:solid purple;
+    background-color:grey;
+    height:20vh;
+    display:flex;
+
+}
+.keypad{
+    /* border:solid red; */
+    width:33%;
+    padding:2em;
+    padding-top:52px;
+
+}
+
+.actionBtn  {
+    border:solid purple;
+    width:33%;
+}
+.fightBtn{
+    border:solid purple;
+    height:40px;
+    width:40px;
+    background-color:#333C3F;
+    font-size:32px;
+    color:lemonchiffon;
+    text-align:center;
+    border-radius:50%;
+}
+.fightBtn:hover{
+    border:solid purple;
+    height:40px;
+    width:40px;
+    background-color:#333C3F;
+    font-size:32px;
+    color:red;
+    text-align:center;
+    border-radius:50%;
+}
+
+.obtns{
+    border:solid black;
+    width:30%;
+    text-align:center;
+    font-size:22px;
+    height:20px;
+    border-radius:12px;
+    padding:5px;
+    background-color:#333C3F;
+    
+}
+
+.side{
+    display:flex;
+    width:100%;
+    margin-left:30%;
+}
+.arrowU,.arrowD{
+    border:solid black;
+    height:40px;
+    width:20px;
+    margin-left:42%;
+    border-radius:8px;
+    background-color: #333C3F;
+}
+.arrowL,.arrowR{
+    border:solid black;
+    margin:5px;
+    height:20px;
+    width:40px;
+    border-radius:8px;
+    background-color: #333C3F;
+}
+.oBtn{
+    border:solid purple;
+    width:33%;
+}
+.filler{
+    height:33%;
+}
+.flexer{
+    display:flex;
+    justify-content: space-evenly;
+}
+.healthBarContainer{
+  display: flex;
+}
+
+.timer{
+  width:20%;
+  text-align:center;
+  font-size:42px;
+  /* border:solid blue; */
+  border-radius:50%;
+  padding-top:15px;
+}
+.p1hp,.p2hp{
+  /* border:solid gold; */
+  width:40%;
+  height:30px;
+  display: flex;
+}
+.nameDisplay{
+  display:flex;
+  justify-content: space-between;
+}
+
+.p1,.p2{
+  font-size:22px;
+  margin:22px;
+}
+.logo{
+  height:80px;
+  border-radius:50%;
+  border:double white;
+  border-width:8px;
+}
+
+
+.p1side,.p2side{
+/* border:solid lime; */
+width:50%;
+}
+
+.unoPlayer{
+  height:260px;
+} 
+.unoAttack{
+  height:260px;
+animation: fightnow 3s ease-in 1;
+transition:5s;
+}
+.dosPlayer{
+/* margin-left:20%; */
+  height:260px;
+  padding-left:20%;
+}
+.newspace{
+  /* border:solid yellow; */
+  height:18%;
+}
+.lifer{
+  border:solid gold;
+  width:25%;
+  background-color: gold;
+}
+.btnz{
+  border:solid white;
+  width:30%;
+  border-radius:22px;
+  font-size:22px;
+  text-align:center;
+  margin:12px;
+}
+.btnContainer{
+  display:flex;
+  justify-content: space-evenly;
+
+}

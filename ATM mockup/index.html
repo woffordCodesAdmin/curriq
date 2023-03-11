@@ -20,7 +20,20 @@
         </div>
 
         <div class="screen">
-          <div class="scrn2"></div>
+          <div class="leftOptions">
+            <div class="selexD"></div>
+            <div class="selexW"> </div>
+            <div class="selexC"></div>
+          </div>
+          <div class="mainDisplay">
+            <div class="scrn2"></div>
+          <div class="scrn3"></div>
+          </div>
+          <div class="rightOptions">
+            <div class="selexE"></div>
+            <div class="selexS"></div>
+            <div class="selexR"></div>
+          </div>
         </div>
 
         <div class="btnRightContainer">
@@ -37,27 +50,27 @@
 
       <div class="keyPad">
         <div class="rowOne">
-          <div class="keys">1</div>
-          <div class="keys">2</div>
-          <div class="keys">3</div>
+          <div onclick="displayNum('1')" class="keys">1</div>
+          <div onclick="displayNum('2')" class="keys">2</div>
+          <div onclick="displayNum('3')" class="keys">3</div>
         </div>
 
         <div class="rowOne">
-          <div class="keys">4</div>
-          <div class="keys">5</div>
-          <div class="keys">6</div>
+          <div onclick="displayNum('4')" class="keys">4</div>
+          <div onclick="displayNum('5')" class="keys">5</div>
+          <div onclick="displayNum('6')" class="keys">6</div>
         </div>
 
         <div class="rowOne">
-          <div class="keys">7</div>
-          <div class="keys">8</div>
-          <div class="keys">9</div>
+          <div onclick="displayNum('7')" class="keys">7</div>
+          <div onclick="displayNum('8')" class="keys">8</div>
+          <div onclick="displayNum('9')" class="keys">9</div>
         </div>
 
         <div class="rowOne">
-          <div class="keys">CLR</div>
-          <div class="keys">0</div>
-          <div class="keys">ENTER</div>
+          <div onclick="clearScreen()" class="keys">CLR</div>
+          <div onclick="displayNum('0')" class="keys">0</div>
+          <div onclick="clearScreen()" class="keys">ENTER</div>
         </div>
 
         <div class="cardSlot" onclick="">Insert Card</div>

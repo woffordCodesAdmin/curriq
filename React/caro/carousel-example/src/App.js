@@ -9,9 +9,7 @@ import symbols from "./models/symbols";
 function App() {
   const [count, setCount] = useState(0);
 
-  const [currentPic,setCurrentPic] = useState(cardImages[count])
-
-  
+  const [currentPic,setCurrentPic] = useState(cardImages[count])  
   console.log(currentPic)
 
   const reverseCount = () => {
@@ -24,8 +22,6 @@ function App() {
     setCount(count +1);
     setCurrentPic(cardImages[count])
   };
-
- 
 
   return (
     <div className="App">

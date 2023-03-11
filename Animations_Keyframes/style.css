@@ -1,0 +1,72 @@
+
+
+
+@keyframes runLeft {
+    0%{
+        margin-left:0%;
+    }
+    10%{
+        margin-top:40%;
+    }
+    20%{
+        margin-top:0%;
+
+    }
+    50%{
+        margin-left:100%;
+        
+    }
+    100%{
+        margin-left:0%;
+    }
+  }
+
+
+  @keyframes falling {
+    0%{
+        
+        margin-top:0%;
+    }
+    50%{
+        margin-top:60%;
+        
+    }
+    100%{
+        margin-top:0%;
+    }
+  }
+
+
+
+
+  .ball{
+    border:solid purple;
+    height:90px;
+    width:90px;
+    border-radius:50%;
+    background-color:purple;
+/* to create an animation */
+    animation: runLeft 10s ease-in infinite;
+    position:absolute;
+  }
+
+/* toggle.classList  */
+
+.falling{
+    animation: falling 10s ease-in infinite;
+}
+.btn{
+    font-size:32px;
+    width:120px;
+    margin:1em;
+    border-radius:22px;
+    padding-left:8px;
+    padding-right:8px;
+    background-color:blue;
+    color:yellow;
+    border:solid red;
+    border-width:.5px;
+}
+.espn{
+    animation: animate__wobble 10s ease-in infinite;
+}

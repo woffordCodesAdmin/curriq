@@ -1,0 +1,18 @@
+.gameboard{
+    border:solid black;
+    height:350px;
+    margin:1em;
+    display:flex;
+    justify-content: space-between;
+}
+
+.controller{
+    border:solid navy;
+    height:150px;
+}
+.playerOne{
+    border:solid blue;
+}
+.playerTwo{
+    border:solid red;
+}

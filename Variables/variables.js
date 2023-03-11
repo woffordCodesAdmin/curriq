@@ -8,13 +8,18 @@ let intVariable = 12
 let boolVar = true
 
 let arrayVar = ['this', 'that','the','one']
+let alsoArray = [12,"Jordan", true, {name: "Jordan"}]
+
 
 let objectVariable = {
     name: 'Jordan',
     age: 31, 
-    location: 'Gotham City'
+    location: 'Gotham City',
+    greeting: function(){
+        console.log("YERRR");
+    }
 }
-
+    console.log(objectVariable.greeting);
 // ----------> However const variables are immutable (aka. cantChange)
 
 const socialsecNumber = 123456789

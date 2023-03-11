@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="sfContainer">
+      <div class="charSelect">
+        <h3 class="optionTitle">Character Select</h3>
+        <div class="charContainer">
+          <div class="fighter" onclick="changeCharacters('ryu')">
+            <img
+              src="https://www.fightersgeneration.com/np5/char/ssf2hd/ryu-hdstance.gif"
+              alt=""
+              class="fChar"
+            />
+            <div class="charTxt">RYU</div>
+          </div>
+          <div class="fighter" onclick="changeCharacters('akuma')">
+            <img
+              src="https://i.pinimg.com/originals/dd/6a/95/dd6a951bd3584acc655269e96a206ca5.gif"
+              alt=""
+              class="fChar"
+            />
+            <div class="charTxt">Akuma</div>
+          </div>
+          <div class="fighter" onclick="changeCharacters('bison')">
+            <img
+              src="https://www.fightersgeneration.com/np5/char/ssf2hd/bison-hdstance.gif"
+              alt=""
+              class="fChar"
+            />
+            <div class="charTxt">M. Bison</div>
+          </div>
+          <div class="fighter" onclick="changeCharacters('ken')">
+            <img
+              src="https://i.pinimg.com/originals/46/4b/36/464b36a7aecd988e3c51e56a823dbedc.gif"
+              alt=""
+              class="fChar"
+            />
+            <div class="charTxt">KEN</div>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------------------------- -->
+      <div class="gameboard">
+        <div class="healthBarContainer">
+          <div class="p1hp">
+            <div class="lifer"></div>
+            <div class="lifer"></div>
+            <div class="lifer"></div>
+            <div class="lifer"></div>
+          </div>
+          <div class="timer"> 00 </div>
+          <div class="p2hp">
+            <div class="lifer"></div>
+            <div class="lifer"></div>
+            <div class="lifer"></div>
+            <div class="lifer"></div>
+          </div>
+        </div>
+        <div class="nameDisplay">
+          <div class="p1"></div>
+          
+          <div class="p2"></div>
+        </div>
+        <!-- platform -->
+        <div class="arena">
+          <div class="p1side">
+            <div class="newspace"></div>
+            <div class="newspace"></div>
+            <div class="newspace"></div>
+
+            <div class="playerOne">
+              <img
+                src=""
+                alt=""
+                class="unoPlayer"
+              />
+            </div>
+          </div>
+
+          <div class="p2side">
+            <div class="newspace"></div>
+            <div class="newspace"></div>
+            <div class="newspace"></div>
+            <div class="playerTwo">
+              <img
+                src=""
+                alt=""
+                class="dosPlayer"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- --- -->
+        <div class="btnContainer">
+          <div class="btnz" onclick="attack()">Attack</div>
+          <div class="btnz" onclick="loadFighters()">Start</div>
+            <div class="btnz" onclick="populateBackground()">Change Map</div>
+            <div class="btnz" onclick="playAudio()">Play Audio</div>
+            <div class="btnz">Instructions</div>
+          </div>
+      </div>
+    </div>
+
+    <script src="app.js" async defer></script>
+  </body>
+</html>

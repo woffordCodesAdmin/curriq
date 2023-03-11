@@ -1,0 +1,89 @@
+.calculaterContainer{
+    background-color:lightslategray;
+    margin:2em;
+    border:solid black;
+    height:85vh;
+}
+.screen{
+    border:solid navy;
+    background-color: lightblue;
+    height:22vh;
+    font-size:32px;
+    margin:1.5em;
+    display: flex;
+    justify-content: space-around;
+    color:salmon;
+}
+.numContainer{
+    width:80%; 
+    border:solid white;
+}
+.keyPad{
+    border:solid navy;
+    /* height:42vh; */
+    display: flex;
+    margin:2em;
+    padding:1em;
+    
+}
+.mathRow{
+    border:solid white;
+    border-width:.2px;
+    font-size:32px;
+    margin:1em;
+    padding:1.2px;
+    height:4vh;
+    display:flex;
+    text-align:center;
+    justify-content: space-evenly;
+}
+.arithContainer{
+    /* border:solid purple;s */
+    width:20%;
+    font-size:32px;
+    text-align:center;
+}
+.num{
+    border:solid #333C3F;
+    padding-left:18px;
+    padding-right:18px;
+    border-radius:12px;
+}
+.num:hover{
+    border:solid #333C3F;
+    padding-left:18px;
+    background-color:green;
+color:white;
+    padding-right:18px;
+    border-radius:12px;
+}
+.operator{
+    border:solid #333C3F;
+    padding-left:18px;
+    padding-right:18px;
+    border-radius:12px;
+    margin-top:12%;
+}
+.operator:hover{
+    border:solid #333C3F;
+    padding-left:18px;
+    padding-right:18px;
+    border-radius:12px;
+    margin-top:12%;
+    background-color:green;
+    color:white;
+}
+.first{
+    margin:1em;
+    width:30%;
+
+}
+.symbol{
+    margin:1em;
+    width:30%;
+
+}
+.second{
+    margin:1em;
+    width:30%;
+}

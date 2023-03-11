@@ -17,7 +17,6 @@ function App() {
       );
 
       const data = await response.json();
-
       // Set Response to state
       setMovie(data);
     } catch (e) {
@@ -26,7 +25,7 @@ function App() {
   };
 
   useEffect(() => {
-    getMovie("Hulk");
+    getMovie("");
   }, []);
   return (
     <div className="App">

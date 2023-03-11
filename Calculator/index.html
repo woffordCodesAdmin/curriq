@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="calQ"> CalQlater</h1>
+    <div class="calculaterContainer">
+        <div class="screen">
+            
+        </div>
+        <div class="keyPad">
+            <div class="numContainer">
+                <div class="mathRow">
+                    <div class="num" onclick="addToScreen(1)">1</div>
+                    <div class="num" onclick="getNumberOfButton(2)">2</div>
+                    <div class="num" onclick="get2ndNumberOfButton(3)">3</div>
+                </div>
+                <div class="mathRow">
+                    <div class="num" onclick="addToScreen(4)">4</div>
+                    <div class="num" onclick="addToScreen(5)">5</div>
+                    <div class="num" onclick="addToScreen(6)">6</div>
+                </div>
+                <div class="mathRow">
+                    <div class="num" onclick="addToScreen(7)">7</div>
+                    <div class="num" onclick="addToScreen(8)">8</div>
+                    <div class="num" onclick="addToScreen(9)">9</div>
+                </div>
+                <div class="mathRow">
+                    <div class="num" onclick="addToScreen('.')">.</div>
+                    <div class="num" onclick="addToScreen(0)">0</div>
+                    <div class="num" onclick="addToContainer()"> (e) </div>
+                </div>
+            </div>
+            
+            <div class="arithContainer">
+                <div class="operator" onclick="addTwoNumbers()">CLR</div>
+                <div class="operator" onclick="setOperator('+')">+</div>
+                <div class="operator" onclick="setOperator('-')">-</div>
+                <div class="operator" onclick="setOperator('*')">*</div>
+                <div class="operator" onclick="setOperator('%')">%</div>
+                <div class="operator"onclick="finishMath()"> = </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

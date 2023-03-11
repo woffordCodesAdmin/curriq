@@ -1,7 +1,5 @@
 
 //========>  Strings
-
-
 let thisString = "Example String"
 let anotherString ="Boston is the best!"
 // -------.length()
