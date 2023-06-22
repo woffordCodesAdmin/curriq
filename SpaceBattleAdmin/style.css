@@ -1,18 +1,87 @@
-.gameboard{
-    border:solid black;
-    height:350px;
-    margin:1em;
-    display:flex;
-    justify-content: space-between;
+body {
+  background-color: black;
+  padding: 3em;
+  color: lime;
+  height: 900vh;
+}
+.gameboard {
+  border: solid purple;
+  padding: 1em;
+  border-radius: 22px;
+  height: 350px;
+  margin: 2em;
+  display: flex;
+  justify-content: space-between;
+  background-image: url("https://i.pinimg.com/originals/ee/51/b9/ee51b9d0c248ddfc745174c9d1906216.gif");
+  background-size: cover;
 }
 
-.controller{
-    border:solid navy;
-    height:150px;
+.controller {
+  /* border:solid peru; */
+  padding: 0.5em;
+  margin: 1em;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
 }
-.playerOne{
-    border:solid blue;
+.playerOne {
+  width: 25%;
+  padding-top: 20%;
 }
-.playerTwo{
-    border:solid red;
+.playerTwo {
+  width: 25%;
+  padding-top: 20%;
+}
+
+.aShip,
+.spaceShip {
+  height: 90px;
+}
+.mainTitle {
+  text-align: center;
+  font-size: 4em;
+}
+.ownContainer {
+  padding: 1em;
+  height: 120px;
+  border-width: 0.2px;
+  width: 40%;
+}
+.actualBtn {
+  border: solid lemonchiffon;
+  border-width: 0.3px;
+  font-size: 22px;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  background-color: slategrey;
+  position: fixed;
+  background-image: url("https://media2.giphy.com/media/l5JbspfwZ0yjHjlJ0K/giphy.gif?cid=6c09b9523gr88ex94enmyjiosl5ydeppwitpu8ytli3xw5r9&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+  background-size: cover;
+}
+.actualBtn:hover {
+  font-size: 22px;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  background-color: slategrey;
+  position: fixed;
+}
+.controllerSliver {
+  text-align: center;
+  color: paleturquoise;
+  font-size: 22px;
+}
+.logger{
+    border:solid white;
+    min-height:75vh;
+    color:lemonchiffon;
+}
+.organizer{
+    border:solid grey;
+    border-radius:12px;
+    margin:1em;
+    padding:12px;
+    text-align:center;
+    font-size:23px;
 }
