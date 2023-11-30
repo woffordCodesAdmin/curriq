@@ -1,8 +1,5 @@
 // What is the DOM -- Document OBJECT model
 
-
-
-
 const populateTextToScreen = () => {
   let screen = document.querySelector(".screen");
 
@@ -12,11 +9,8 @@ const populateTextToScreen = () => {
   screen.innerHTML = text;
 };
 
-
 const launchPrompt = () => {
-  let dynamicText = prompt(
-    "something else"
-  );
+  let dynamicText = prompt("something else");
   let screen = document.querySelector(".screen");
 
   screen.innerHTML = dynamicText;
@@ -45,3 +39,5 @@ const changeColor = (color) => {
   let site = document.querySelector("body");
   site.style.backgroundColor = color;
 };
+
+

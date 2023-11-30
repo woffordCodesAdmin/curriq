@@ -1,0 +1,16 @@
+
+.modContainer{
+    border:solid blue;
+    text-align:center;
+    margin:1em;
+}
+.newDocs{
+    border:solid black;
+    /* height:18vh; */
+    margin:1em;
+}
+.movingsym{
+    border:solid red;
+    height:90px;
+    width:90px;
+}

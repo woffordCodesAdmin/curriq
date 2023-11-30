@@ -10,6 +10,7 @@ const consoleToScreen=(content)=>{
     spacer.innerHTML = content
     screen.append(spacer)
 }
+
 let player1 = {
   name: "USS Assembly",
   hull: 20,
@@ -69,8 +70,9 @@ let a6 = {
 };
 
 let allAliens = [a1, a2, a3, a4, a5, a6];
+
 let currentAlien = a1;
-let counter = 0
+let counter= 0
 let defeatedEnemies = 0
 
 consoleToScreen(`Current Target:  ${currentAlien.name}`)
@@ -122,7 +124,6 @@ const startRound = () => {
   consoleToScreen(`${currentAlien.name}'s remaining life: ${shot}`);
   // --------------------------------------
   determineLifeAlien();
-
 };
 
 

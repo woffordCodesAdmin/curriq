@@ -46,6 +46,7 @@ app.post("/fruits", (req, res) => {
   fruits.push(req.body)
   res.redirect('/fruits')
 });
+
 // -----> [POST]
 app.post('/fruits/', (req, res)=>{
   if(req.body.readyToEat === 'on'){ 
